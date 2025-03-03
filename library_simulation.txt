@@ -1,0 +1,21 @@
+FWD_LOCOMOTION
+    PPO 
+        PD:
+            120324155758
+            120324152619
+            120324145359
+        PD_CARTESIAN:
+            120324140537
+        CPG:
+            120324094901
+
+    SAC
+        PD:
+        PD_CARTESIAN:
+        CPG:
+STAIRS
+    PPO
+        CPG: 
+
+                with previous policy 
+                120324094901
