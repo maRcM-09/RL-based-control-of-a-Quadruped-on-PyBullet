@@ -1,5 +1,5 @@
 # Quadruped-Sim
-This repository contains an environment for simulating a quadruped robot.
+The quadrupedal movement is delved into for this project. Two separate management methodologies are utilized: Deep Reinforcement Learning (DRL) and Central Pattern Generator (CPG). In the first part, a bio-inspired approach using a  Hopf oscillator to generate cyclic trajectories for various gaits is implemented. These trajectories are tracked using both joint-space and Cartesian-space PD controllers. In the second part, a Markov Decision Process (MDP) framework is designed to enable learning-based control, employing Proximal Policy Optimization (PPO) for training. The observation space, action space, and task-specific reward functions are tailored to address forward locomotion, target-reaching, and navigating slopes. This report outlines the design choices, controller implementations and preliminary evaluations, aiming to improve efficiency, robustness, and adaptability in legged robot motion.
 
 ## Installation
 
